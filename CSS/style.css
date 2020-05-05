@@ -1,0 +1,30 @@
+   .searchForm {
+    padding-left: 10px;
+   }
+   .moreRoom {
+       margin-bottom: 10px;
+   }
+
+   .weathercard, .card-body, .card {
+       background-color: blue;
+       visibility: hidden;
+       color: white;
+   }
+
+   #subBTN {
+       display: inline;
+   }
+
+   .historyBtn {
+       border-width: 2px;
+       margin: 5px;
+       padding: 5px;
+   }
+
+   #history-container {
+       border-width: 2px;
+   }
+
+   #fivedayforecast {
+       visibility: hidden;
+   }

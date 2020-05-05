@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS\style.css">
+  <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <div class="">
+        <div class="row">
+            <!-- col 1 -->
+            <div class="col-3">
+                <h5 class="searchForm">Search for a city:</h1>
+                    <form class="searchForm">
+                        <label for="citySearch">City:</label><br>
+                        <input type="text" id="citySearch" name="citySearch"><br>
+                        <button id ="subBTN" type="button" >Search</button>
+                    </form>
+                    <br>
+                    <div class="container left" >
+                        <h5>Search History:</h5>
+                        <div id="history-container" class="container left"></div>
+                    </div>
+            </div>
+            <!-- col 2 -->
+            <div class="col-9">
+                <div class="container" id="currentWeather">
+                
+                </div>
+
+                <h3 id="fivedayforecast">5 Day Forecast: </h3>
+                <div class="row container" id="forecast">
+                    <div class="card col" style="width: 5rem;" id="forecast1">
+                        <div class="card-body weathercard1" id="innerDiv1">
+                        </div>
+                    </div>
+                    <div class="card col offset-md-1" style="width: 5rem;" id="forecast2">
+                        <div class="card-body weathercard2" id="innerDiv2">
+                            
+                        </div>
+                    </div>
+                    <div class="card col offset-md-1" style="width: 5rem;" id="forecast3">
+                        <div class="card-body weathercard3" id="innerDiv3">
+                            
+                        </div>
+                    </div>
+                    <div class="card col offset-md-1" style="width: 5rem;"id="forecast4">
+                        <div class="card-body weathercard4" id="innerDiv4">
+                            
+                        </div>
+                    </div>
+                    <div class="card col offset-md-1" style="width: 5rem;" id="forecast5">
+                        <div class="card-body weathercard5" id="innerDiv5">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script>
+    moment().format();
+</script>
+    <script src="JS\script.js"></script>
+  </div>
+</body>
+
+</html>
